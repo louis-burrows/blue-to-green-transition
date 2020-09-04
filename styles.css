@@ -1,0 +1,14 @@
+.box {
+  margin: 40px auto;
+  background: #005eff;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  transition-duration: 3s;
+}
+
+.box:hover {
+  transform: rotate(720deg);
+  background-color: rgb(68, 236, 68);  
+  border-radius: 50%;
+}  
